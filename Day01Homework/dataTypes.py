@@ -1,13 +1,16 @@
 # Numerik veri tipleri => int,float,complex
 
 # int : tam sayı veri tipi
+a=1
 # float : ondalıklı sayı veri tipi
+b=5.2
 # complex : karmaşık sayı (j) veri tipi ileri düzey matematiksel işlemlerde kullanılır
 
 #----------------------------------------------------------------------------------#
 
 # Text-metin veri tipi => String
 # string : karakter ,string tanımlamak için "" veya '' işaretleri arasına yazılır.
+name="Mustafa"
 
 #----------------------------------------------------------------------------------#
 

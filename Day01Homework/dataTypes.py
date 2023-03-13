@@ -2,8 +2,10 @@
 
 # int : tam sayı veri tipi
 a=1
+print(type(a))
 # float : ondalıklı sayı veri tipi
 b=5.2
+print(type(b))
 # complex : karmaşık sayı (j) veri tipi ileri düzey matematiksel işlemlerde kullanılır
 
 #----------------------------------------------------------------------------------#
@@ -11,6 +13,7 @@ b=5.2
 # Text-metin veri tipi => String
 # string : karakter ,string tanımlamak için "" veya '' işaretleri arasına yazılır.
 name="Mustafa"
+print(type(name))
 
 #----------------------------------------------------------------------------------#
 
@@ -35,8 +38,8 @@ print(thislist)
 # Tuple liste elemanları parantez kullanılarak oluşturulur.
 
 # ikiside tupledır fakat okunabilirlik açısından parantez kullanmakta fayda var
-names = ('ahmet', 'mehmet', 'cenk')
-names = 'ahmet', 'mehmet', 'cenk'
+names = ('mustafa', 'muhammet', 'elif')
+names = 'mustafa', 'muhammet', 'elif'
 tuple1 = (1, "abc", True, 50)
 print(type(tuple1))
 
@@ -65,10 +68,10 @@ print(type(frozen))
 
 thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 print(thisdict)
-ogrenci = {"numara": "120", "ad": "Ahmet", "soyad": "Yılmaz"}
+ogrenci = {"numara": "120", "ad": "Mustafa", "soyad": "Atmaca"}
 print(ogrenci)
-user = {"username": "sadikturan", "password": "123456",
-        "email": "info@sadikturan.com", "phone": "05320000000"}
+user = {"username": "mustafaatmaca", "password": "123456",
+        "email": "info@mustafaatmaca.com", "phone": "05320000000"}
 #key erişim
 for i in user:
     print(i)

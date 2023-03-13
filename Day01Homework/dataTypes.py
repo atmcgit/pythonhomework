@@ -4,16 +4,19 @@
 # float : ondalıklı sayı veri tipi
 # complex : karmaşık sayı (j) veri tipi ileri düzey matematiksel işlemlerde kullanılır
 
+#----------------------------------------------------------------------------------#
 
 # Text-metin veri tipi => String
 # string : karakter ,string tanımlamak için "" veya '' işaretleri arasına yazılır.
 
+#----------------------------------------------------------------------------------#
 
 # boolean True veya False değer veren tip
 
 isStudent = True
 print(type(isStudent))
 
+#----------------------------------------------------------------------------------#
 
 # List : verilerin liste şeklinde siralandığı tip
 # Liste elemanlarından her biri farklı veri tipinde olabilir.
@@ -22,6 +25,7 @@ list1 = ["abc", 34, True, 40, "male"]
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)
 
+#----------------------------------------------------------------------------------#
 
 # Tuple : List'e benzer ancak farkı tuple içindeki elamanlar değiştirilemez,ekleme,güncelleme ve silineme yapılamaz.
 # Tuple liste elemanları değiştirilemez ancak başka bir liste türüne çevrilerek güncelleme yapılabilir.
@@ -40,6 +44,7 @@ print(type(thistuple))
 thistuple = ("apple")
 print(type(thistuple))
 
+#----------------------------------------------------------------------------------#
 
 # Set : Pythonda set list'e benzer ancak set'de elemanlar sıralanamaz index alamazlar.Güncelleyemeyiz ancak yeni eleman ekleyebiliriz ve silebiliriz
 # Pythonda set oluşturmak için süslü parantezler kullanırız.
@@ -51,6 +56,7 @@ frozen = frozenset({"apple", "banana", "cherry"})
 print(type(frozen))
 # içerisindeki elemanlarda ekleme,sileme,güncelleme gibi değişikler yapılmaz.
 
+#----------------------------------------------------------------------------------#
 
 # Dictionary : Python collection veri tiplerinden olan dictinory veri tipi key = value şeklinde sakladığımız veri tipidir.
 

@@ -86,3 +86,24 @@ print("***************")
 # her ikisi
 for a,b in user.items():
     print(a,b)
+
+
+# Kodlama.io sitesinden örnekler :
+
+# int : tamamlanma yüzdesi
+
+# string : ödev tanımları 
+
+# kurslar list şeklinde sıralanmıştır
+
+# şart blokları arama barında ve kullanıcı adı şifre giriş kısmında düşünüyorum
+
+kullanıcıAdı ="mustafaatmaca"
+sifre="000000"
+kullancıAdıAl=input("Kullanıcı adı :")
+sifreAl=input("Şifre :")
+
+if(kullancıAdıAl==kullanıcıAdı and sifreAl==sifre):
+    print("Giriş Başarılı")
+else:
+    print("Kullanıcı adı veya şifre hatalı")

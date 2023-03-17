@@ -169,3 +169,4 @@ fonk2 = calculatePriceAndReturn(300,100)
 print(fonk1)
 print(fonk2)
 print("------------------")
+#

@@ -1,5 +1,5 @@
 # alias
-from selenium import webdriver
+from Day04.seleniumExample import webdriver
 from matematik import topla as toplamaIslemi
 from main import sayHello
 from human import Human
@@ -15,7 +15,7 @@ print(random.randint(0, 100))
 human1 = Human("Mustafa")
 human1.talk("Merhaba")
 
-chromeDriver = webdriver.Chrome()
+## chromeDriver = webdriver.Chrome()
 
 # packages
 

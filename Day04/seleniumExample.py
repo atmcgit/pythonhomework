@@ -8,7 +8,7 @@ driver = webdriver.Chrome("C:\chromedriver.exe")
 driver.maximize_window()
 driver.get("https://www.google.com/")
 sleep(5)
-input = driver.find_element(By.NAME, "q")    # name'a göre arama
+input = driver.find_element(By.NAME, "q")    # name'a göre locator
 input.send_keys("Kodlama.io")
 searchButton = driver.find_element(By.NAME, "btnK")
 sleep(2)

@@ -1,4 +1,5 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 from selenium.webdriver.common.by import By
 
@@ -6,7 +7,7 @@ from selenium.webdriver.common.by import By
 class Test:
 
     def empty_user_password(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         usernameInput = driver.find_element(By.ID, "user-name")
@@ -22,7 +23,7 @@ class Test:
         print(testResult)
 
     def only_password_empty(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         usernameInput = driver.find_element(By.ID, "user-name")
@@ -38,7 +39,7 @@ class Test:
         print(testResult)
 
     def locked_user(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         usernameInput = driver.find_element(By.ID, "user-name")
@@ -54,7 +55,7 @@ class Test:
         print(testResult)
 
     def x_button(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         loginBtn = driver.find_element(By.ID, "login-button")
@@ -75,7 +76,7 @@ class Test:
         sleep(5)
 
     def goInventory(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         usernameInput = driver.find_element(By.ID, "user-name")
@@ -89,7 +90,7 @@ class Test:
         print(currentUrl)
 
     def countProduct(self):
-        driver = webdriver.Chrome("C:\chromedriver.exe")
+        driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
         usernameInput = driver.find_element(By.ID, "user-name")

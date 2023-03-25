@@ -75,7 +75,7 @@ class Test:
         errorClose.click()
         sleep(5)
 
-    def goInventory(self):
+    def go_ınventory(self):
         driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
@@ -89,7 +89,7 @@ class Test:
         currentUrl = driver.current_url == "https://www.saucedemo.com/inventory.html"
         print(currentUrl)
 
-    def countProduct(self):
+    def count_product(self):
         driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.maximize_window()
         driver.get("https://www.saucedemo.com/")
@@ -107,4 +107,4 @@ class Test:
 
 
 testclass = Test()
-testclass.countProduct()
+testclass.count_product()

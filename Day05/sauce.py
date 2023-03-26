@@ -48,4 +48,5 @@ class Test_Sauce:
 
 testClass = Test_Sauce()
 testClass.test_invalid_login()
+testClass.test_valid_login()
 

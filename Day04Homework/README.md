@@ -27,14 +27,14 @@
 ### 1.ID,2.Class,3.Attribute Values
 
 
-⋅⋅*driver.get(): Yazılan siteye girer.
-⋅⋅*driver.back(): önceki sayfa
-⋅⋅*driver.forward(): sonraki sayfa
-⋅⋅*driver.refresh(): sayfayı yenile
-⋅⋅*driver.close(): sayfayı kapat
-⋅⋅*find_element(): locatorlar sayesinde element bulmamızı sağlar
-⋅⋅*dragAndDrop: sürükle bırak
-⋅⋅*send_keys() yazılan değeri elemente girer
-⋅⋅*clear(): elementin içeriğini temizler
-⋅⋅*click(): Seçilen elemente tıklar.
-⋅⋅*select(): Elementi seçer
+⋅⋅* driver.get(): Yazılan siteye girer.
+⋅⋅* driver.back(): önceki sayfa
+⋅⋅* driver.forward(): sonraki sayfa
+⋅⋅* driver.refresh(): sayfayı yenile
+⋅⋅* driver.close(): sayfayı kapat
+⋅⋅* find_element(): locatorlar sayesinde element bulmamızı sağlar
+⋅⋅* dragAndDrop: sürükle bırak
+⋅⋅* send_keys() yazılan değeri elemente girer
+⋅⋅* clear(): elementin içeriğini temizler
+⋅⋅* click(): Seçilen elemente tıklar.
+⋅⋅* select(): Elementi seçer
